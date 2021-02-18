@@ -1,4 +1,5 @@
 .tmc.json
-
+.tmcproject.yml
 */test
 */tmc
+*.txt

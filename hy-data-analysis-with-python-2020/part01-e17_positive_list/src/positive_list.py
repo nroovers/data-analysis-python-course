@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 def positive_list(L):
-    def isPos(x):
-        return x > 0
+    # def isPos(x):
+    #     return x > 0
 
-    return list(filter(isPos, L))
+    return list(filter(lambda x: x>0, L))
 
 
 def main():
